@@ -5,7 +5,7 @@ function fish() {
       $("#footer-wrap").css({
         position: "absolute",
         "text-align": "center",
-        top: -55,
+        top: 0,
         right: 0,
         left: 0,
         bottom: 0,
