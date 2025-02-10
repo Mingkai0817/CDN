@@ -1,30 +1,6 @@
-//页脚养鱼
-fish();
-
-function fish() {
-	return (
-		$("#footer-wrap").css({
-			position: "absolute",
-			"text-align": "center",
-			top: -55,
-			right: 0,
-			left: 0,
-			bottom: 0,
-		}),
-		$("footer").append(
-			'<div class="container" id="jsi-flying-fish-container"></div>'
-		),
-		$("body").append(
-			'<script src="https://fastly.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"></script>'
-		),
-		this
-	);
-}
-
-
 // 动态心跳，更改自己的名称
 $(document).ready(function(e) {
-	$('.copyright').html('©2021-2024 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By Willow-God');
+	$('.copyright').html('©204-2025 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By Mingkai');
 })
 
 $(document).ready(function(e) {
@@ -35,7 +11,7 @@ $(document).ready(function(e) {
 function show_date_time() {
 	$('.framework-info').html('小破站已经苟且偷生<span id="span_dt_dt" style="color: #fff;"></span>');
 	window.setTimeout("show_date_time()", 1000);
-	BirthDay = new Date("12/12/2021 01:27:36");
+	BirthDay = new Date("05/28/2024 00:00:00");
 	today = new Date();
 	timeold = (today.getTime() - BirthDay.getTime());
 	sectimeold = timeold / 1000
